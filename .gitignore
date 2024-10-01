@@ -11,10 +11,15 @@ school_data.json
 SchoolReport1.jpg
 SchoolReport2.jpg
 
-
 git rm --cached "1_dictionary start file.py"
+git rm --cached "2_person_dict.py"
+git rm --cached "3_simple_exercises.py"
 git rm --cached "4_dictionary exercise start file"
+git rm --cached "5_datastore.py"
+git rm --cached "6_producereport.py"
+git rm --cached "7_schools_report.py"
 git rm --cached "origial_retail_space.csv"
+git rm --cached "retail_space.csv"
+git rm --cached "school_data.json"
 git rm --cached "SchoolReport1.jpg"
 git rm --cached "SchoolReport2.jpg"
-
