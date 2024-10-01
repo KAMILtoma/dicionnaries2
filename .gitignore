@@ -10,3 +10,11 @@ retail_space.csv
 school_data.json
 SchoolReport1.jpg
 SchoolReport2.jpg
+
+
+git rm --cached "1_dictionary start file.py"
+git rm --cached "4_dictionary exercise start file"
+git rm --cached "origial_retail_space.csv"
+git rm --cached "SchoolReport1.jpg"
+git rm --cached "SchoolReport2.jpg"
+
