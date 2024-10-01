@@ -207,3 +207,21 @@ ProduceDictionary={
     }
 }
 
+
+for produce, details in ProduceDictionary.items():
+    #print(ProduceDictionary['i'])
+    #print(type(details))
+    #print(type(produce))
+    cost = details['cost']
+    amtsold= details['amt_sold']
+    stated_total= details['total']
+
+
+    calc_total = round(cost*amtsold, 2)
+
+    if calc_total != stated_total:
+        print(f"produce name :{ produce}")
+        print(f"Calculated Total: $ {calc_total:.2f}")
+        print(f'Stated total: ${stated_total:.2f}')
+        print()
+        print()
